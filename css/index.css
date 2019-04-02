@@ -37,18 +37,17 @@ header, .experience {
     Width: 152px;
     height: 164px;
   }
-	
+
   .left, .right{
-  float: none;
+  float: center;
 	text-align: center;
 	width: 100%;
   }
 
-	.right{
-		text-align: center;
-	}
-
 	ul li {
 		list-style-position: inside;
+	}
+	li{
+		margin-right: 14%;
 	}
 }
