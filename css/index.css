@@ -32,7 +32,7 @@ header, .experience {
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
  .left #headshot{
     Width: 152px;
     height: 164px;
@@ -43,11 +43,19 @@ header, .experience {
 	text-align: center;
 	width: 100%;
   }
-
 	ul li {
 		list-style-position: inside;
+
 	}
-	li{
-		margin-right: 14%;
+.main-content	li{
+			text-align: center;
+			margin-right: 50px;
 	}
+}
+
+@media screen and (max-width: 600px){
+	.main-content li{
+		text-align: center;
+		margin-right: 60px;
+ }
 }
