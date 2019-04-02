@@ -45,3 +45,20 @@ body {
 .main-content {
   margin: 0 80px;
 }
+
+/* @media screen, responsive design for different devices */
+
+/* Shrinks headshot size */
+@media screen and (max-width: 1000px){
+ .left #headshot{
+    Width: 82%;
+    height: auto;
+  }
+}
+
+/* increases margin of main content at display width less than 700px */
+@media screen and (max-width: 700px){
+  .main-content{
+    margin: 30px;
+  }
+}
