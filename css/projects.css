@@ -21,7 +21,7 @@
 
 /* @media screen, responsive design for different devices */
 
-/* setting tile size and imaage to reduce proportionally */
+/* Setting tile size and imaage to reduce proportionally */
 @media screen and (min-width: 1000px){
   .tile {
     width: 29%;
