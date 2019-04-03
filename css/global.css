@@ -54,15 +54,31 @@ body {
     Width: 82%;
     height: auto;
   }
+  .right p{
+    margin: 0% 5% 5% 0%;
+  }
+  .experience p{
+    margin: 5%;
+  }
 }
 
-/* increases margin of main content at display width less than 700px */
+/* Sets #headshot size, then increases margin of main content when display width less than 800px */
 @media screen and (max-width: 800px){
+  .left #headshot{
+    Width: 152px;
+    height: 164px;
+  }
   .main-content{
     margin: 30px;
   }
+  .main-content p{
+    margin: 5%;
+  }
+}
+
+/* Font size*/
+@media screen and (max-width: 420px){
   body{
     font-size: 14px;
-
   }
 }

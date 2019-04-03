@@ -18,3 +18,84 @@
 	display: block;
 	margin: 0 auto;
 }
+
+/* @media screen, responsive design for different devices */
+
+/* setting tile size and imaage to reduce proportionally */
+@media screen and (min-width: 1000px){
+  .tile {
+    width: 29%;
+    margin: 1.5%;
+  }
+  .tile img{
+    width: 95%;
+    height: auto;
+    padding-top: 2.5%;
+  }
+  .tile p{
+    max-width: 90%;
+    margin: 5% 5%
+  }
+  .tile a{
+    word-wrap:break-word;
+    max-width: 90%;
+    margin: 5% 5%
+  }
+  .main-content #headshot{
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .tile {
+    width: 46%;
+    margin: 1.5%;
+  }
+  .tile img{
+    width: 95%;
+    height: auto;
+    padding-top: 2.5%;
+  }
+  .tile p{
+    max-width: 90%;
+    margin: 5% 5%
+  }
+  .tile a{
+    word-wrap:break-word;
+    max-width: 90%;
+    margin: 5% 5%
+  }
+  .main-content #headshot{
+    width: 130px;
+    height: auto;
+    float: right;
+    padding: 25px 25px 25px 25px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .tile {
+    width: 96%;
+    margin: 1.5%;
+  }
+  .tile img{
+    width: 95%;
+    height: auto;
+    padding-top: 2.5%;
+  }
+  .tile p{
+    max-width: 90%;
+    margin: 5% 5%
+  }
+  .tile a{
+    word-wrap:break-word;
+    max-width: 90%;
+    margin: 5% 5%
+  }
+  .main-content #headshot{
+    width: 130px;
+    height: auto;
+    float: right;
+    padding: 15px;
+}

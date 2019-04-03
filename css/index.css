@@ -31,31 +31,23 @@ header, .experience {
 	padding: 10px;
 }
 
+/* @media screen, responsive design for different devices */
 
+/* floats class left and right centre therfore stacking them,
+bullet point list styling and centering */
 @media screen and (max-width: 800px){
- .left #headshot{
-    Width: 152px;
-    height: 164px;
-  }
-
   .left, .right{
   float: center;
 	text-align: center;
 	width: 100%;
   }
+
 	ul li {
 		list-style-position: inside;
-
 	}
-.main-content	li{
+
+	.main-content	li{
 			text-align: center;
-			margin-right: 50px;
+			margin-right: 60px;
 	}
-}
-
-@media screen and (max-width: 600px){
-	.main-content li{
-		text-align: center;
-		margin-right: 60px;
- }
 }
